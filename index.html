@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Icebreakers Videos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: url('images/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header img {
+      width: 90%;
+      max-width: 600px;
+      height: auto;
+      margin: 20px auto;
+      display: block;
+      border-radius: 12px;
+      background-color: rgba(0, 0, 0, 0.5); /* Optional: adds contrast for logos */
+      padding: 5px; /* Optional: spacing around logo image */
+    }
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.6); /* Optional: semi-transparent overlay for readability */
+      border-radius: 12px;
+      max-width: 90%;
+      margin: 0 auto;
+    }
+    .video-container iframe {
+      width: 90%;
+      max-width: 600px;
+      aspect-ratio: 16/9;
+      border-radius: 12px;
+    }
+    .link-container {
+      margin: 20px;
+    }
+    .link-container a {
+      display: inline-block;
+      background-color: #40E0D0;
+      color: #000000;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .link-container a:hover {
+      background-color: #2ACFCF;
+      color: #FFFFFF;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/host-image.jpg" alt="Host Image">
+  </header>
+
+  <main>
+    <div class="video-container">
+      <iframe src="https://player.vimeo.com/video/123456789" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://player.vimeo.com/video/987654321" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <div class="link-container">
+    <a href="https://yourwebsite.com" target="_blank">Visit Our Website</a>
+  </div>
+</body>
+</html>
