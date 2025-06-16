@@ -7,7 +7,7 @@ Welcome to the **Icebreakers Video Page**! This repository contains the HTML and
 ## 📸 Features
 
 ✅ **Host Image** at the top of the page  
-✅ **Two embedded Vimeo videos**, stacked vertically on mobile  
+✅ **Single embedded Vimeo video** (duplicate the embed block to add another)
 ✅ **Custom graphic background** for branding  
 ✅ **Clickable link** at the bottom of the page  
 ✅ **Mobile-first design** with responsive layout  
