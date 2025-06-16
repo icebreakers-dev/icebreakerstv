@@ -12,11 +12,3 @@ Welcome to the **Icebreakers Video Page**! This repository contains the HTML and
 ✅ **Clickable link** at the bottom of the page  
 ✅ **Mobile-first design** with responsive layout  
 ✅ **Easy customization** for branding and links
-
----
-
-## 🚀 Getting Started
-
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/yourusername/icebreakers-video-page.git
